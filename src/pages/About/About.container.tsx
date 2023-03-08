@@ -1,7 +1,7 @@
-import AboutComponent from './About.component';
+import AboutComponent from "./About.component";
 
 export function AboutContainer() {
-    return <AboutComponent/>
+  return <AboutComponent />;
 }
 
 export default AboutContainer;

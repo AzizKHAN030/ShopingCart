@@ -1,0 +1,18 @@
+.Navbar {
+  position: sticky;
+
+  &-CartButton {
+    transition: 0.3s;
+
+    &_Badge {
+      height: 20px;
+      width: 20px;
+      border-radius: 25%;
+      background-color: red;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
